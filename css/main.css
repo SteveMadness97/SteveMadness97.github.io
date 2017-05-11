@@ -1,0 +1,156 @@
+body{
+   background:url("../img/background_img.jpg");
+    background-position:-600px -1200px;
+    background-size: 150%;
+    margin:0px;
+    background-attachment: fixed;
+}
+
+.container{
+    padding:0px;
+}
+.table
+{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.navbar-default{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    margin-top:0px;
+    background-color: chocolate;
+    border:none;
+    padding:0px;
+}
+
+
+
+.navtext{
+    color:black; 
+    background-color:chocolate;
+}
+
+#navtext-active{
+    color:blue;
+    background-color:#f08000; 
+}
+
+.container-fluid{
+    background-color:chocolate;
+    margin:0px;
+    
+}
+
+#gif{
+    padding:0px;
+    max-height: 250px;
+    border: solid black 8px;
+}
+
+#header{
+    font-size: 700%;
+    background-color: chocolate;
+    text-align: center;
+    color: black;
+    border: solid black 8px;
+}
+
+#logo
+{
+background-color:gold;
+border: solid black 8px;
+}
+
+#navlist{
+    background-color: chocolate;
+    border: solid black 8px;
+    
+}
+#footer{
+    background-color:#401800;
+    color:gold;
+    border: black solid 8px;
+    
+}
+#content{
+    border: black solid 8px;
+    background-color:gold;
+    
+}
+#contentcontact{
+    border: black solid 8px;
+    background-color:gold;
+    text-align:center;
+}
+p{
+
+    font-size: 150%;
+}
+
+.img-circle{
+    width:50px;
+    margin-left:20px;
+
+}
+
+.imgs{
+    max-width: 40%;
+}
+
+#placeholder{
+    
+    color: transparent;
+}
+
+#footertext{
+    text-align: right;
+}
+
+.scrollingtext1{
+    margin-left:15%;
+    width: 600px;
+    line-height: 50px;
+    background-color: goldenrod;
+    color: palegoldenrod;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.scrollingtext1 p{
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollingtext1 180s linear infinite;
+}
+@keyframes scrollingtext1 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.scrollingtext2{
+    margin-left:15%;
+    width: 600px;
+    line-height: 50px;
+    background-color: goldenrod;
+    color: palegoldenrod;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.scrollingtext2 p{
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollingtext2 60s linear infinite;
+}
+@keyframes scrollingtext2 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
